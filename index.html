@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="RadStore" />
+    <meta property="og:image" content="logo.jpg" />
+    <link rel="icon" href="logo.jpg" type="image/x-icon"/>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon"/>
+    <title>RadStore</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+    <nav class="navbar">
+        <div class="logo-section">
+            <img width="60px" height="60px" src="logo.jpg" alt="Logo" class="logo">
+            <div class="store-info">
+                <h1 class="store-name">RadStore</h1>
+                <p class="slogan">Top-up murah terpercaya, proses kilat, dan kebutuhan digital lengkap!</p>
+            </div>
+        </div>
+        
+        <ul class="nav-links">
+             <button class="hamburger" onclick="toggleMenu()">☰</button>
+            <li><a href="https://t.me/+kQUveX0n8HpkYzU9" target="_blank">Telegram</a></li>
+            <li><a href="https://www.instagram.com/radstore.07/?igsh=MTFudnFwcDE3bDk5aQ%3D%3D" target="_blank">Instagram</a></li>
+            <li><a href="#">Beranda</a></li>
+        </ul>
+    </nav>
+</header>
+
+           <center> <img width="325px" height="250px" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" alt="Banner"> </center>
+           
+        <h1>Top-Up Games</h1>
+        <p>Selain top-up game, RadStore juga menyediakan berbagai kebutuhan digital lainnya seperti:</p>
+        <ul>
+            <li><strong>Aplikasi Premium:</strong> Berlangganan aplikasi premium seperti Netflix, Spotify, dan YouTube, dll.</li>
+            <li><strong>Pulsa:</strong> Isi ulang pulsa untuk semua operator dengan mudah dan cepat.</li>
+            <li><strong>Token Listrik:</strong> Dapatkan token listrik PLN dengan berbagai nominal sesuai kebutuhan.</li>
+            <li><strong>Paket Internet:</strong> Pilihan paket data untuk semua operator dengan harga bersaing.</li>
+            <li><strong>Paket Sosial Media:</strong> Paket khusus untuk akses sosial media seperti Instagram, Facebook, dan TikTok.</li>
+        </ul>
+        <p>Jika Anda membutuhkan layanan ini, Anda dapat langsung menghubungi kami melalui WhatsApp dengan mengklik tombol di bawah ini.</p>
+        <a href="https://wa.me/6281335054493" class="whatsapp-link" target="_blank">
+            <button class="whatsapp-btn">WhatsApp</button>
+        </a>
+
+        <div class="game-selection">
+            <h2>Pilih Game</h2>
+            <div class="note">
+    </div>
+    <br>
+    <br>
+            <div class="games">
+                <button class="game-btn" onclick="openForm('Game ML')">
+                    <img src="https://play-lh.googleusercontent.com/F9cgJKcHDpODaCSGVMYjQMuCp3Bh8ithjTmfotUTRqXe_7jMZM81lrlxo6RAz9vroK8" alt="Game 1 Icon"> Mobile Legends
+                </button>
+                <button class="game-btn" onclick="openForm('Game FF')">
+                    <img src="https://play-lh.googleusercontent.com/FwHFuObCEVZzadQXB0klEtby8rHVV7ztHNld7a1HRBqu_TA_whj81jHzjOcWC7x52pY=w240-h480-rw" alt="Game 2 Icon"> Free Fire
+                </button>
+                <button class="game-btn" onclick="openForm('Game HOK')">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQut49y9vaQ1bKyVoyOylzo3fjOXlrdXfkCrQ&s" alt="Game 3 Icon"> Honor of Kings
+                </button>
+                <button class="game-btn" onclick="openForm('Game PUBG')">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIGmF_QsXQ18QC7QIiDpFpHsEapQx9xisufg&s" alt="Game 4 Icon"> PUBG Mobile ID
+                </button>
+                <button class="game-btn" onclick="openForm('Game Valorant')">
+                    <img src="https://cdn2.unrealengine.com/egs-valorant-riotgames-ic1-400x270-ee924f75e8d4.png?resize=1&w=480&h=270&quality=medium" alt="Game 5 Icon"> Valorant
+                </button>
+                <button class="game-btn" onclick="openForm('Game Zepeto')">
+                    <img src="https://play-lh.googleusercontent.com/SItCmcnqjGw9CjWzG3u4F0HSMZcvt1RfLGgruonqPuCH3RIJ3zuWXXKp06eB4DF3UoU=w240-h480-rw" alt="Game 6 Icon"> Zepeto
+                </button>
+                <button class="game-btn" onclick="openForm('Game AOV')">
+                    <img src="https://play-lh.googleusercontent.com/Z1P-G3kZKLgh6FbrFYBV7aAAeGfKQMSk2BpLx0wKXdKCVrE84yQUh1VxY5PgB9j0xOM" alt="Game 7 Icon"> AOV
+                </button>
+                <button class="game-btn" onclick="openForm('Game Genshin')">
+                    <img src="https://play-lh.googleusercontent.com/sRJhsE2C6Qozm3kqix33FY9yTD_8_glD9irSShDzdYVxyn6yqjT9byMe-2THqw5OKn5n=w240-h480-rw" alt="Game 8 Icon"> Genshin Impact
+                </button>
+                <button class="game-btn" onclick="openForm('Game Honkai')">
+                    <img src="https://play-lh.googleusercontent.com/cM6aszB0SawZNoAIPvtvy4xsfeFi5iXVBhZB57o-EGPWqE4pbyIUlKJzmdkH8hytuuQ" alt="Game 9 Icon"> Honkai Star Rail
+                </button>
+                <button class="game-btn" onclick="openForm('Game CODuty')">
+                    <img src="https://play-lh.googleusercontent.com/gdt2TfPTrgSTqmX1vvmVOQwJMl84kBdQMZ1FL1KN7gu6GCsVerekMqqiDFOSysJeDQg" alt="Game 10 Icon"> Call of Duty
+                </button>
+            </div>
+        </div>
+
+        <section id="form-section" class="hidden">
+            <h2>Formulir Top-Up</h2>
+            <form id="topup-form">
+                <input type="hidden" id="selected-game" name="selected-game">
+                
+                <label for="user-id">User ID:</label>
+                <input type="text" id="user-id" name="user-id" placeholder="Masukkan User ID + Zone ID/Server (jika ada)" required>
+
+                <label for="amount">Nominal:</label>
+                <select id="amount" name="amount" required>
+                    <!-- Options akan diisi melalui JavaScript -->
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="qr-code-section" class="hidden">
+            <h2>Pembayaran</h2>
+            <p>Silakan lakukan pembayaran yang sesuai harga menggunakan QR Code di bawah ini:</p>
+            <img id="payment-qr" alt="QR Code Pembayaran">
+        </section>
+    </div>
+</body>
+</html>
